@@ -110,7 +110,6 @@ if ($conn->connect_error) {
 $id = $_POST["id"];
   $name = $_POST["name"];
   $type= $_POST["type"];
-  $belongs = $_POST["belong"];
   $cost = $_POST["cost"];
 
   $Query2="select count(*) from pet_products where pp_id='$id'";
@@ -118,7 +117,7 @@ $id = $_POST["id"];
   $count = mysqli_fetch_row($Execute);
   if($count[0]==1)
   {
-    $sql = "UPDATE  pet_products SET pp_name='$name' ,pp_type= '$type',cost='$cost' ,belongs_to='$belongs' 
+    $sql = "UPDATE  pet_products SET pp_name='$name' ,pp_type= '$type',cost='$cost'
     WHERE pp_id='$id'";
     if ($conn->query($sql) == TRUE) {
       echo'<div>
