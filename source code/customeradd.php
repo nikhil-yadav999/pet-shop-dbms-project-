@@ -108,7 +108,6 @@ if ($conn->connect_error) {
 //echo "  INSERTION IN PROCESS";
 $id = $_POST["id"];
   $fname = $_POST["fname"];
-  $minit= $_POST["minit"];
   $lname = $_POST["lname"];
   $address = $_POST["address"];
 
@@ -116,7 +115,7 @@ $id = $_POST["id"];
 
 
 $sql = "INSERT INTO customer( cs_id,cs_fname,cs_minit,cs_lname,cs_address)
-VALUES ('$id','$fname','$minit','$lname','$address')";
+VALUES ('$id','$fname','$lname','$address')";
 if ($conn->query($sql) == TRUE) {
   echo'<div>
   <h1 style="color:#f2f2f2;font-size:20px; font-family: "Roboto", sans-serif;margin:auto;">New record of id='
