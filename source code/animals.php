@@ -93,7 +93,7 @@ formaction="animalsupdate.php">update animal</button>
 </div>
     <?php
    
-$con = mysqli_connect("localhost","root","","Petshop_management");
+$con = mysqli_connect("localhost","root","1234","petshop_management");
 if(!$con)
 { 
 die("could not connect".mysql_error());
