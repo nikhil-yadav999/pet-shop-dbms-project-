@@ -68,4 +68,4 @@ Full report <a href="./report/Full report.pdf">view </a>
      
 Thank you  :smiley:   
 //i have written below this--
-one file is excludefd from this on purpose
+one file is excluded from this on purpose
