@@ -109,7 +109,6 @@ if ($conn->connect_error) {
 //echo "  INSERTION IN PROCESS";
 $id = $_POST["id"];
   $fname = $_POST["fname"];
-  $minit= $_POST["minit"];
   $lname = $_POST["lname"];
   $address = $_POST["address"];
 
@@ -119,7 +118,7 @@ $id = $_POST["id"];
   $count = mysqli_fetch_row($Execute);
   if($count[0]==1)
   {
-    $sql = "UPDATE customer set cs_fname='$fname',cs_minit='$minit' ,cs_lname='$lname' ,cs_address='$address'
+    $sql = "UPDATE customer set cs_fname='$fname',cs_lname='$lname' ,cs_address='$address'
     where cs_id='$id'";
   if ($conn->query($sql) == TRUE) {
     echo'<div>
