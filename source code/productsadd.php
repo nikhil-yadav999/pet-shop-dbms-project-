@@ -108,13 +108,12 @@ if ($conn->connect_error) {
 $id = $_POST["id"];
   $name = $_POST["name"];
   $type= $_POST["type"];
-  $belongs = $_POST["belong"];
   $cost = $_POST["cost"];
 
 
 
 
-$sql = "INSERT INTO pet_products( pp_id,pp_name,pp_type,cost,belongs_to)
+$sql = "INSERT INTO pet_products( pp_id,pp_name,pp_type,cost)
 VALUES ('$id','$name','$type','$cost','$belongs')";
 if ($conn->query($sql) == TRUE) {
   echo'<div>
