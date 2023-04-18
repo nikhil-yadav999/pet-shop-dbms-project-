@@ -93,7 +93,7 @@ border: 3px solid #e69500;background-color: rgba(249, 105, 14, 1);color:#f2f2f2;
 </div>
 <?php
    
-$con = mysqli_connect("localhost","root","","Petshop_management");
+$con = mysqli_connect("localhost","root","1234","petshop_management");
 if(!$con)
 { 
 die("could not connect".mysql_error());
