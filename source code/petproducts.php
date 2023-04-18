@@ -99,7 +99,6 @@ echo "<tr>
 <th>pp_name</th>
 <th>pp_type</th>
 <th>cost</th>
-<th>belongs_to</th>
 </tr>";
 if(mysqli_num_rows($var)>0){
     while($arr=mysqli_fetch_row($var))
@@ -108,7 +107,6 @@ if(mysqli_num_rows($var)>0){
     <td>$arr[1]</td>
     <td>$arr[2]</td>
     <td>$arr[3]</td>
-    <td>$arr[4]</td>
     </tr>";}
     echo "</table>";
     mysqli_free_result($var);
