@@ -12,11 +12,11 @@ A mini database management system ,which helps the small scale petshop owner to 
 
 * To track the information about sold pets and products to a customer.
 
-# Developed with :blush:
+# Technologies used
 
- **HTML**  **CSS**   **PHP**   **MYSQL**
+ **HTML**  **CSS**   **PHP**   **MYSQL** **SQL**
 
-## Screenshots :wink:
+## Screenshots 
 * Login page
 
    <img src="./report/login.PNG" alt="drawing" width="auto"/>
