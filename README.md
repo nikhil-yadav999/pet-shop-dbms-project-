@@ -1,7 +1,7 @@
-# **Pet Shop** :dog: :cat: 
+# **Pet Shop**
 A mini database management system ,which helps the small scale petshop owner to keep track the available pet and it's products along with the sales details of his shop.
 
-# Objectives :muscle:
+# Objectives
 * To provide web based interface to a petshop owner to manage his petshop activities.
 
 * To provide an option for storing and managing the basic information about pets and pet products in the shop.
@@ -15,10 +15,6 @@ A mini database management system ,which helps the small scale petshop owner to 
 # Developed with :blush:
 
  **HTML**  **CSS**   **PHP**   **MYSQL**
-
-# Description :pencil:
-
-Full report <a href="./report/Full report.pdf">view </a>
 
 ## Screenshots :wink:
 * Login page
@@ -54,7 +50,7 @@ Full report <a href="./report/Full report.pdf">view </a>
   <img src="./report/addanimals.PNG" alt="drawing" width="auto"/>
 
 
-# How to Run ?
+# Running the project 
  
  1. Download the project
 
@@ -66,5 +62,4 @@ Full report <a href="./report/Full report.pdf">view </a>
                  password =123
     
      
-Thank you  :smiley:   
 
